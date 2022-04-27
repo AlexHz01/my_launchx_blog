@@ -7,10 +7,10 @@ description: 'Este es mi primer post de la travesía en la Misión de Backend co
 !HOLA¡
 
 Para mi la cultura de un prefesional del SoftWare es:
-* Estudiar
-* Informarse de lo mas resiente en la tecnologias
-* Comunicarse   
-* Estar bien con sigo mismo
-* Tener una buena alimentacion 
+* -Estudiar
+* -Informarse de lo mas resiente en la tecnologias
+* -Comunicarse   
+* -Estar bien con sigo mismo
+* -Tener una buena alimentacion 
 
-Esto para mi es lo mas importante para mi que deveria cumplir un prefesional del software :)
+Esto para mi es lo mas importante que debe cumplir un prefesional del software :)
