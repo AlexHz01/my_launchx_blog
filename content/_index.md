@@ -11,12 +11,12 @@ description: Mi primer blog.
 
 #### Mis espectattivas para este proyecto son :
 
-- Aprender Git y GitHub
-- Aprender Node JS 
-- Aprender hacer blog con hugo
-- Aprender a diseñar Backend
-- Aprender a utilizar el software Intellij IDEA
-- Compartir :)
+- -Aprender Git y GitHub
+- -Aprender Node JS 
+- -Aprender hacer blog con hugo
+- -Aprender a diseñar Backend
+- -Aprender a utilizar el software Intellij IDEA
+- -Compartir :)
 
 #### Experiencias 
 
