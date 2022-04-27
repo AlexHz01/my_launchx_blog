@@ -20,7 +20,7 @@ description: Mi primer blog.
 
 #### Experiencias 
 
-*Cuando empecé este curso no tenía ningún conocimiento de progemacion, pero sin embargo con el transcurso que avanzaba las semanas  sentía como mis conocimientos empezaban aumentar pero esto fue gracias a dos cosas la primera fue por los mission commander y la segunda por el tiempo dedicado a estudiar y a practicar, prueba de eso es que ya puedo crear un blog con GitHub Page.*
+> *Cuando empecé este curso no tenía ningún conocimiento de progemacion, pero sin embargo con el transcurso que avanzaba las semanas  sentía como mis conocimientos    empezaban aumentar pero esto fue gracias a dos cosas la primera fue por los mission commander y la segunda por el tiempo dedicado a estudiar y a practicar, prueba de > eso es que ya puedo crear un blog con GitHub Page.* 
 
 #### Consejos que me han servido para un mejor aprendizaje 
 1. 1.Estudiar de manera breve los conceptos, significados e historia de lo que vamos aprender (Esto nos ayuda a comprender más la programación)
