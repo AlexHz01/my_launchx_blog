@@ -13,9 +13,9 @@
       <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://alexhz01.github.io/my_launchx_blog/posts/post_1/</guid>
-      <description>Como Crear un Repo remoto con Git + Git + GitHub Para poder crear un repo remoto desde GitHub de manera facil tendremos que crear una llave SSH en nuestra pc.
+      <description>Como Crear un Repo remoto con Git + GitHub Para poder crear un repo remoto desde GitHub de manera facil tendremos que crear una llave SSH en nuestra pc.
 Created key SSH in us pc
- 1- Utilizaremos la plataforma de GitHub para subir nuestra repo locales 2- Creamos una repo en GitHub y copiamos el link del repo 3- Creamos una carpeta en nuestra PC 4- Abrimos la carpeta con una terminal 5- estando dentro de la carpeta desde la terminal inicializamos git con el sig.</description>
+ 1- Utilizaremos la plataforma de GitHub para subir nuestra repo locales 2- Creamos una repo en GitHub y copiamos el link del repo 3- Creamos una carpeta en nuestra PC 4- Abrimos la carpeta con una terminal 5- Estando dentro de la carpeta desde la terminal inicializamos git con el sig.</description>
     </item>
     
     <item>
