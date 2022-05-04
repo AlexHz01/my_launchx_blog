@@ -10,10 +10,13 @@
     <item>
       <title>Mi primer blog post</title>
       <link>https://alexhz01.github.io/my_launchx_blog/posts/post_1/</link>
-      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://alexhz01.github.io/my_launchx_blog/posts/post_1/</guid>
-      <description></description>
+      <description>Git, que presenta una arquitectura distribuida, es un ejemplo de DVCS (sistema de control de versiones distribuido).
+ Para poder crear un repo remoto desde GitHub de manera facil tendremos que crear una llave SSH en nuestra pc.
+Created key SSH in us pc
+ Utilizaremos la plataforma de git para subir nuestra repo locales Creamos una repo en GitHub y copiamos el link del repo Creamos una carpeta en nuestra PC Abrimos la carpeta con una terminal estando dentro de la carpeta desde la terminal inicializamos git con el sig.</description>
     </item>
     
     <item>
