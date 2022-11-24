@@ -13,7 +13,7 @@ Snapcraft es una herramienta que permite a los desarrolladores crear paquetes de
 comandos para instalar 
 
 - 1 `sudo rm /etc/apt/preferences.d/nosnap.pref`
-- 2 `sudo apt update
+- 2 `sudo apt update`
 - 3 `sudo apt install snapd`
 
 conesto podemos instalar desde la terminal cualquier programa que este en la store de snapcraft
