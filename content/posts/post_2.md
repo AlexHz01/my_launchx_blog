@@ -17,6 +17,7 @@ comandos para instalar
 3 `sudo apt install snapd`
 
 conesto podemos instalar desde la terminal cualquier programa que este en la store de snapcraft
+
 ---
 
 ---
