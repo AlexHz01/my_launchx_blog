@@ -15,7 +15,7 @@
       <guid>https://alexhz01.github.io/my_launchx_blog/posts/post_2/</guid>
       <description>Instalacion de SNAPCRAFT Snapcraft es una herramienta que permite a los desarrolladores crear paquetes de cualquier aplicación para ser utilizados en Snappy. Es decir, reúne todas las dependencias necesarias para el empaquetado de las aplicaciones y poder ser ejecutadas
 comandos para instalar
- 1 sudo rm /etc/apt/preferences.d/nosnap.pref 2 `sudo apt update 3 sudo apt install snapd  conesto podemos instalar desde la terminal cualquier programa que este en la store de snapcraft</description>
+ 1 sudo rm /etc/apt/preferences.d/nosnap.pref 2 sudo apt update 3 sudo apt install snapd  conesto podemos instalar desde la terminal cualquier programa que este en la store de snapcraft</description>
     </item>
     
     <item>
