@@ -68,11 +68,12 @@
 <h2 id="conesto-podemos-instalar-desde-la-terminal-cualquier-programa-que-este-en-la-store-de-snapcraft">conesto podemos instalar desde la terminal cualquier programa que este en la store de snapcraft</h2>
 <hr>
 <h3 id="crear-una-llave-ssh-para-github">Crear una llave SSH para GitHub</h3>
-<p>instalamos <code>sudo apt install openssh-server</code></p>
-<p>Para crear una llave ssh lo primero que tenemos que hacer es ubicar la carpeta <code>~/.ssh</code> podemos ingresar a la carpeta <code>cd ~/.ssh</code> y si no tenemos la carpeta podemos crearla desde la terminal o directamente en la crpeta home de nuestra pc, terminal ==&gt; <code>mkdir .ssh</code></p>
-<p>Una vez ubicado en la carpeta .ssh colocamos en nuestra terminal <code>ssh-keygen -t rsa -b 4096 -C “name@email”</code></p>
-<p>nos pedira que le ingresemos un nombre y una contraseña(colocamos a nuestra preferencia)</p>
-<p>a hora solo nos queda ingresar el codigo que se encuentra en .ssh/ssh.pub en nuestro git hub y a hora podemos clonar cualquier repo a nuestra pc</p>
+<ul>
+<li>instalamos <code>sudo apt install openssh-server</code></li>
+<li>Para crear una llave ssh lo primero que tenemos que hacer es ubicar la carpeta <code>~/.ssh</code> podemos ingresar a la carpeta <code>cd ~/.ssh</code> y si no tenemos la carpeta podemos crearla desde la terminal o directamente en la crpeta home de nuestra pc, terminal ==&gt; <code>mkdir .ssh</code></li>
+<li>Una vez ubicado en la carpeta .ssh colocamos en nuestra terminal <code>ssh-keygen -t rsa -b 4096 -C “name@email”</code> nos pedira que le ingresemos un nombre y una contraseña(colocamos a nuestra preferencia)</li>
+<li>A hora solo nos queda ingresar el codigo que se encuentra en .ssh/ssh.pub en nuestro git hub y a hora podemos clonar cualquier repo a nuestra pc</li>
+</ul>
 <hr>
 <h3 id="intalar-un-gestor-de-base-de-datos-e-ide">Intalar un gestor de base de datos e IDE</h3>
 <p>Un buen gestor de base de datos para linux mint es DBeaver podemos intalar con el comando <code>sudo snap install dbeaver-ce</code>
@@ -85,7 +86,8 @@ para instalar pycharm <code>sudo snap install pycharm-professional --channel=202
 <li>clonamos <code>git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k</code></li>
 <li>colocamos <code>ZSH_THEME=&quot;powerlevel10k/powerlevel10k&quot;</code> en <code>~/.zshrc</code>. (podemos usar los editores nano o vim)</li>
 <li>Reinicie Zsh con <code>exec zsh</code>.</li>
-<li>Descargamos e instalamos una de las 4 fuentes <a href="https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k">fuente</a></li>
+<li>Descargamos e instalamos una de las 4 fuentes <a href="https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k">fuentes</a></li>
+<li>Escribimos en la terminal <code>10k configure</code> para configurar a nuestro gusto la terminal</li>
 </ul>
 <hr>
 <hr>
