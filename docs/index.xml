@@ -13,9 +13,10 @@
       <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://alexhz01.github.io/my_launchx_blog/posts/post2/</guid>
-      <description>Crear una llave SSH para GitHub instalamos sudo apt install openssh-server
-Para crear una llave ssh lo primero que tenemos que hacer es ubicar la carpeta ~/.ssh podemos ingresar a la carpeta cd ~/.ssh y si no tenemos la carpeta podemos crearla desde la terminal o directamente en la crpeta home de nuestra pc, terminal ==&amp;gt; mkdir .ssh
-Una vez ubicado en la carpeta .ssh colocamos en nuestra terminal ssh-keygen -t rsa -b 4096 -C “name@email”</description>
+      <description>Instalacion de SNAPCRAFT Snapcraft es una herramienta que permite a los desarrolladores crear paquetes de cualquier aplicación para ser utilizados en Snappy. Es decir, reúne todas las dependencias necesarias para el empaquetado de las aplicaciones y poder ser ejecutadas
+comandos para instalar
+1 sudo rm /etc/apt/preferences.d/nosnap.pref 2 sudo apt update 3 sudo apt install snapd`
+conesto podemos instalar desde la terminal cualquier programa que este en la store de snapcraft  Crear una llave SSH para GitHub instalamos sudo apt install openssh-server</description>
     </item>
     
     <item>
