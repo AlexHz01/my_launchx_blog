@@ -22,15 +22,10 @@ conesto podemos instalar desde la terminal cualquier programa que este en la sto
 ---
 ### Crear una llave SSH para GitHub
 
-instalamos `sudo apt install openssh-server`
-
-Para crear una llave ssh lo primero que tenemos que hacer es ubicar la carpeta `~/.ssh` podemos ingresar a la carpeta `cd ~/.ssh` y si no tenemos la carpeta podemos crearla desde la terminal o directamente en la crpeta home de nuestra pc, terminal ==> `mkdir .ssh`
-
-Una vez ubicado en la carpeta .ssh colocamos en nuestra terminal `ssh-keygen -t rsa -b 4096 -C “name@email”`
-
-nos pedira que le ingresemos un nombre y una contraseña(colocamos a nuestra preferencia)
-
-a hora solo nos queda ingresar el codigo que se encuentra en .ssh/ssh.pub en nuestro git hub y a hora podemos clonar cualquier repo a nuestra pc 
+- instalamos `sudo apt install openssh-server`
+- Para crear una llave ssh lo primero que tenemos que hacer es ubicar la carpeta `~/.ssh` podemos ingresar a la carpeta `cd ~/.ssh` y si no tenemos la carpeta podemos crearla desde la terminal o directamente en la crpeta home de nuestra pc, terminal ==> `mkdir .ssh`
+- Una vez ubicado en la carpeta .ssh colocamos en nuestra terminal `ssh-keygen -t rsa -b 4096 -C “name@email”` nos pedira que le ingresemos un nombre y una contraseña(colocamos a nuestra preferencia)
+- A hora solo nos queda ingresar el codigo que se encuentra en .ssh/ssh.pub en nuestro git hub y a hora podemos clonar cualquier repo a nuestra pc 
 
 ---  
 
@@ -49,8 +44,8 @@ para instalar pycharm `sudo snap install pycharm-professional --channel=2022.1/s
 - clonamos `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 - colocamos `ZSH_THEME="powerlevel10k/powerlevel10k"` en `~/.zshrc`. (podemos usar los editores nano o vim)
 - Reinicie Zsh con `exec zsh`.
-- Descargamos e instalamos una de las 4 fuentes [fuente](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
-
+- Descargamos e instalamos una de las 4 fuentes [fuentes](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
+- Escribimos en la terminal `10k configure` para configurar a nuestro gusto la terminal
 ---
 
 ---  
