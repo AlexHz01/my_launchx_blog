@@ -34,6 +34,7 @@ conesto podemos instalar desde la terminal cualquier programa que este en la sto
 
 Un buen gestor de base de datos para linux mint es DBeaver podemos intalar con el comando `sudo snap install dbeaver-ce`
 para instalar pycharm `sudo snap install pycharm-professional --channel=2022.1/stable --classic`
+Podemos ir directo a la store de snpacraft y descargar una version en especifico
 
 ---
 
