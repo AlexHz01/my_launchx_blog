@@ -41,6 +41,15 @@ Para mi la cultura de un prefesional del SoftWare es:
     </item>
     
     <item>
+      <title></title>
+      <link>https://alexhz01.github.io/my_launchx_blog/posts/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexhz01.github.io/my_launchx_blog/posts/docker/</guid>
+      <description> docker images ( con esto podemos visualizar las imagenes en nuestra pc) docker pull univerciadadDB (Obtener una imagen o un repositorio de un registro) docker image rm &amp;ldquo;name or id&amp;rdquo; (para borrar una imegen creada)   docker ps (para ver los contenedores &amp;ldquo;iniciados&amp;rdquo;) docker ps -a (para ver todos nuestros contededores de nuestro sistema)   docker &amp;ndash;name NameNew NameOld (Si queremos cambiar el nombre) docker start NameNew ( con esto inicializamos el container) docker stop NameNew (detener los contenedores)   docker network ls( con esto visualizamos las networks creadas) docker build -t nombre_imagen:version path (Construimos una imagen apartir de un archivo &amp;gt; Dockerfile) docker network inspect ide-net (Ver las caracteristcias de la red creada)  Pasosos1 Descargar o crear la imagen2 Crear una red3 Inicializar el contenedor4 Configurar PYcharm</description>
+    </item>
+    
+    <item>
       <title>About me</title>
       <link>https://alexhz01.github.io/my_launchx_blog/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
