@@ -55,6 +55,7 @@ para instalar pycharm `sudo snap install pycharm-professional --channel=2022.1/s
 
 - lo primero es instalar `wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
 - a hora con el comando `nvm ls-remote` nos listara todas las versiones disponibles instalamos la mas preferente 
+- Para instalar una version `nvm install v16.18.1` 
 
 
 ---
