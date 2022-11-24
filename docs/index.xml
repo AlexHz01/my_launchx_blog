@@ -6,16 +6,16 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje Enrique Alejandro Chable Hdz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://alexhz01.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://alexhz01.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git &#43; GitHub</title>
+      <title>Linux_Mint</title>
       <link>https://alexhz01.github.io/my_launchx_blog/posts/post2/</link>
-      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://alexhz01.github.io/my_launchx_blog/posts/post2/</guid>
-      <description>Como Crear un Repo remoto con Git + GitHub Para poder crear un repo remoto desde GitHub de manera facil tendremos que crear una llave SSH en nuestra pc.
-Created key SSH in us pc
- 1- Utilizaremos la plataforma de GitHub para subir nuestra repo locales 2- Creamos una repo en GitHub y copiamos el link del repo 3- Creamos una carpeta en nuestra PC 4- Abrimos la carpeta con una terminal 5- Estando dentro de la carpeta desde la terminal inicializamos git con el sig.</description>
+      <description>Crear una llave SSH para GitHub instalamos sudo apt install openssh-server
+Para crear una llave ssh lo primero que tenemos que hacer es ubicar la carpeta ~/.ssh podemos ingresar a la carpeta cd ~/.ssh y si no tenemos la carpeta podemos crearla desde la terminal o directamente en la crpeta home de nuestra pc, terminal ==&amp;gt; mkdir .ssh
+Una vez ubicado en la carpeta .ssh colocamos en nuestra terminal ssh-keygen -t rsa -b 4096 -C “name@email”</description>
     </item>
     
     <item>

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Git &#43; GitHub - Bitácora de Viaje Enrique Alejandro Chable Hdz</title>
+  <title>Linux_Mint - Bitácora de Viaje Enrique Alejandro Chable Hdz</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="https://alexhz01.github.io/my_launchx_blog/favicon.png">
 
@@ -14,12 +14,12 @@
   
 
   
-    <meta name="description" content="Git &#43; GitHub y terminal"/>
-    <meta property="og:title" content="Git &#43; GitHub"/>
+    <meta name="description" content="Configuracion de tu entorno en LinuxMint"/>
+    <meta property="og:title" content="Linux_Mint"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://alexhz01.github.io/my_launchx_blog/posts/post2/"/>
     
-    <meta property="og:description" content="Git &#43; GitHub y terminal"/>
+    <meta property="og:description" content="Configuracion de tu entorno en LinuxMint"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="LaunchX_EXplorer"/>
     <meta name="twitter:creator" content="LaunchX_EXplorer"/>
@@ -55,39 +55,19 @@
   <div class="blog">
     
     <div class="intro">
-      <h1>Git &#43; GitHub<span class="dot">.</span></h1>
+      <h1>Linux_Mint<span class="dot">.</span></h1>
       
     </div>
     <div class="content">
       <hr>
-<h3 id="como-crear-un-repo-remoto-con-git--github">Como Crear un Repo remoto con Git + GitHub</h3>
-<p>Para poder crear un repo remoto desde GitHub de manera facil tendremos que crear una llave SSH en nuestra pc.<br>
-<a href="https://www.youtube.com/watch?v=g0ZV-neSM7E&amp;list=PLIazsGwUK1x2Kwf-jlU0TjsGb-E4ddlGS&amp;index=1&amp;t=548s">Created key SSH in us pc</a></p>
-<ol>
-<li>1- Utilizaremos la plataforma de GitHub para subir nuestra repo locales</li>
-<li>2- Creamos una repo en GitHub y copiamos el link del repo</li>
-<li>3- Creamos una carpeta  en nuestra PC</li>
-<li>4- Abrimos la carpeta con una terminal</li>
-<li>5- Estando dentro de la carpeta desde la terminal inicializamos git con el sig. comando  <code>git init</code></li>
-<li>6- Utilizamos el comando <code>git remote add origin</code> + el url del repo creado en GitHub</li>
-<li>7- A hora ya podemos agregar carpetas con el comando <code>git add</code> + El nombre del archivo</li>
-<li>8- Una vex agregada las carpetas podemos hacer un commit con el comando <code>commit -m &quot;Name File&quot;</code></li>
-<li>9- Por ultimo subimos el archivo a GitHub con el comando <code>git push -u origin main</code></li>
-<li>10- A hora solo nos queda ir al repo de GitHub y buscar repo creado en el paso 2</li>
-</ol>
-<blockquote>
-<p>El archivo .git es de suma importancia y por ese motivo nunca se debe eliminar</p>
-</blockquote>
+<h3 id="crear-una-llave-ssh-para-github">Crear una llave SSH para GitHub</h3>
+<p>instalamos <code>sudo apt install openssh-server</code></p>
+<p>Para crear una llave ssh lo primero que tenemos que hacer es ubicar la carpeta <code>~/.ssh</code> podemos ingresar a la carpeta <code>cd ~/.ssh</code> y si no tenemos la carpeta podemos crearla desde la terminal o directamente en la crpeta home de nuestra pc, terminal ==&gt; <code>mkdir .ssh</code></p>
+<p>Una vez ubicado en la carpeta .ssh colocamos en nuestra terminal <code>ssh-keygen -t rsa -b 4096 -C “name@email”</code></p>
+<p>nos pedira que le ingresemos un nombre y una contraseña(colocamos a nuestra preferencia)</p>
+<p>a hora solo nos queda ingresar el codigo que se encuentra en .ssh/ssh.pub en nuestro git hub y a hora podemos clonar cualquier repo a nuestra pc</p>
 <hr>
 <h3 id="comandos-utiles-para-la-terminal">Comandos Utiles para la terminal</h3>
-<ol>
-<li><code>ls -la</code> &mdash;&mdash;&mdash;&mdash;&ndash;&gt; Nos muestra los archivo ocultos</li>
-<li><code>ls</code>   &mdash;&mdash;&mdash;&mdash;&ndash;&gt; Nos muestra las carpetas y archivos</li>
-<li><code>cd</code>   &mdash;&mdash;&mdash;&mdash;&ndash;&gt; Abre carpetas</li>
-<li><code> cd ..</code> &mdash;&mdash;&mdash;&mdash;&ndash;&gt; Nos regresa una carpeta atras</li>
-<li><code> mkdir</code> &mdash;&mdash;&mdash;&mdash;&gt; Crea una Nueva carpeta</li>
-<li><code>touch </code> &mdash;&mdash;&mdash;&mdash;&gt; Crea un archivo</li>
-</ol>
 <hr>
 
     </div>
