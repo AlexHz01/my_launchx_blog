@@ -46,10 +46,15 @@ para instalar pycharm `sudo snap install pycharm-professional --channel=2022.1/s
 ### Configuracion de la terminal con ZSH
 
 instalamos `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
+
 clonamos `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+
 colocamos `ZSH_THEME="powerlevel10k/powerlevel10k"` en `~/.zshrc`. (podemos usar los editores nano o vim)
+
 Reinicie Zsh con `exec zsh`.
-Descargamos e instalamos una de las 4 fuentes [fuente]([https://www.youtube.com/watch?v=g0ZV-neSM7E&list=PLIazsGwUK1x2Kwf-jlU0TjsGb-E4ddlGS&index=1&t=548s](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
+
+Descargamos e instalamos una de las 4 fuentes 
+[fuente](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
 ---
 
 ---  
