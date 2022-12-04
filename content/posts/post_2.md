@@ -41,7 +41,7 @@ Podemos ir directo a la store de snpacraft y descargar una version en especifico
 ---  
 
 ### Configuracion de la terminal con ZSH
-
+- instalamos `sudo apt-get install git zsh`
 - instalamos `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
 - clonamos `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 - colocamos `ZSH_THEME="powerlevel10k/powerlevel10k"` en `~/.zshrc`. (podemos usar los editores nano o vim)
