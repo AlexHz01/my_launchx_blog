@@ -44,7 +44,7 @@ Podemos ir directo a la store de snpacraft y descargar una version en especifico
 - instalamos `sudo apt-get install git zsh`
 - instalamos `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
 - clonamos `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
-- colocamos `ZSH_THEME="powerlevel10k/powerlevel10k"` en `~/.zshrc`. (podemos usar los editores nano o vim)
+- colocamos `ZSH_THEME="powerlevel10k/powerlevel10k"` en `~/.zshrc`. (podemos usar los editores nano o vim), `nano ~/.zshrc`
 - Reinicie Zsh con `exec zsh`.
 - Descargamos e instalamos una de las 4 fuentes [fuentes](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
 - Escribimos en la terminal `10k configure` para configurar a nuestro gusto la terminal
